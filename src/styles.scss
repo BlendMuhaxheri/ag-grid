@@ -1,0 +1,48 @@
+@import "ag-grid-community/dist/styles/ag-grid.css";
+@import "~ag-grid-community/src/styles/ag-theme-alpine/sass/ag-theme-alpine-mixin";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.ag-tool-panel-wrapper .ag-react-container {
+    width: 100%;
+}
+
+form {
+    padding: 20px;
+}
+
+form label {
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+form .my-form-control {
+    margin: 10px;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+/*  */
+.ag-theme-alpine {
+    @include ag-theme-alpine(( // use theme parameters where possible
+
+            // Default border for cells. This can be used to specify the border-style and border-color properties e.g. `dashed red` but the border-width is fixed at 1px.
+            cell-horizontal-border: solid ag-derived(secondary-border-color),
+        ));
+
+    // .ag-header-cell {
+    //     // or write CSS selectors to make customisations beyond what the parameters support
+    //     border-right: 1px solid ag-param(secondary-border-color);
+    // }
+}

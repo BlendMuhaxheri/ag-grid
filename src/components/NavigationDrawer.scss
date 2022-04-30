@@ -1,0 +1,30 @@
+// .side-bar {
+//     background: '#F8F8F8';
+//     width: 434px;
+//     height: 490px;
+//     position: absolute;
+//     top: 0;
+//     right: 101 !important;
+//     z-index: 99;
+// }
+
+
+.side-first {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 10px;
+    align-items: center;
+    height: auto;
+
+}
+
+.side-second {
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    position: relative;
+    top: 30px;
+}
